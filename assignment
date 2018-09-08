@@ -1,0 +1,103 @@
+<HTML>
+<Title>
+AlterationForum</Title>
+<HEAD>
+<STYLE>
+body {
+    background-image: url("http://laaj.org.au/wp-content/uploads/2017/01/Letter.jpg");
+}
+H1{
+color: rgb(211,211,211);
+text-align: Center;
+}
+#Update{
+float:left;
+padding: 0px 50px 0px 50px;
+ background-color: rgba(0,0,0,0.4);
+color: white;
+}
+#Post{
+float:left;
+padding: 0px 50px 0px 50px;
+background-color: rgba(0,0,0,0.4);
+color: white;
+}
+#Gallery{
+float:left;
+padding: 0px 50px 0px 50px;
+background-color: rgba(0,0,0,0.4);
+color: white;
+}
+</STYLE>
+</HEAD>
+<BODY>
+<marquee behavior="scroll" direction="left">
+<H1>UPDATE FORM FOR MAG.COM PAGE </H1> </marquee><hr background-color:white>
+<div id="Update">
+<h2>TEAM SECTION</h2>
+<form action="">
+  <h3>Club President:</h3><br>
+  <input type="text" name="name" value="Type Here">
+  <br>
+  <input type="submit" value="Submit">
+</form>
+<h3>Faculty Coordination</h3>
+<form action="">
+ <select>
+  <option value="Mr.">Mr.</option>
+  <option value="Mrs.">Mrs.</option>
+  <option value="Ms.">Ms.</option>
+  <option value="Dr.">Dr.</option>
+</select>
+<input type="text" name="name" value="Type Here">
+<br> <input type="submit"></br>
+</form>
+<form action="">
+  <h2>Contact Info:</h2>
+  <h3>Contact no.</h3>
+<input type="text" value="Type Here">
+  <br>
+<h3>Email:</h3>
+<input type="text" value="Type Here">
+  <br>
+<h3>Website:</h3>
+<input type="text" value="Type Here">
+  <br>
+  <input type="submit" value="Submit">
+</form>
+</div>
+<div id="Post">
+<h2>POST AND EVENT SECTION</h2>
+<form action="">
+<h3>Post</h3><br>
+Date:
+<input type="date">
+<br>
+<textarea rows="20" cols="50">"Write your content here..."</textarea>
+<br><input type="button" value="Upload Photo/Video"> 
+<input type="submit">
+</form>
+<h3>Event</h3><br>
+Date:
+<input type="date">
+<br>
+<textarea rows="10" cols="50">"Write about an event..."</textarea>
+<br> 
+Time:
+<input type="text" value=""> hrs
+<br>
+<input type="submit">
+</form>
+</div>
+<div id="Gallery">
+<form>
+<h2>Gallery Section</h2>
+Please Mention to which Post is the<br>uploaded Photo/Video related to:-<br>
+<input type="Button" value="Upload Photo/Video"><br>
+Post/Event<br>
+<input type="text" value="">
+<br><input type="submit">
+</div>
+</form>
+</BODY>
+</HTML>
